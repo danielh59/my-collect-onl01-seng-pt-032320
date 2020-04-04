@@ -4,6 +4,6 @@ counter = 0
 new_array = []
 while counter < a_collection.length 
 new_array << yield(a_collection[counter])
-
+counter += 1
 end
 
